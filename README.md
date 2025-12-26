@@ -16,7 +16,20 @@ The current version is a nostalgic rebuild using modern hardware and updated pla
 - GSM module (previous versions)
 
 ---
+## Getting Started
 
+### Prerequisites
+- Arduino IDE or PlatformIO
+- ESP32 board support installed
+- Blynk account & project setup
+
+### How to Upload
+1. Connect ESP32-S3 to your PC
+2. Open `BLYNK_HOME_AUTOMATION.ino` in Arduino IDE
+3. Update your Wi-Fi & Blynk auth token
+4. Upload and monitor via Serial
+
+---
 ## Core Features
 - Home appliance control using relay modules
 - Environmental monitoring
