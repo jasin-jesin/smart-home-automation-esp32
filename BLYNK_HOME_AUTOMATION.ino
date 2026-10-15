@@ -4,7 +4,7 @@
 #include <Adafruit_VEML7700.h>
 #define BLYNK_TEMPLATE_ID "TMPL5Ijl4UwrI"
 #define BLYNK_TEMPLATE_NAME "Home Automation"
-#define BLYNK_AUTH_TOKEN "cB1GDjC80u3kRJM6rgx67KgTk3ze-B8q"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
 
 #define BLYNK_PRINT Serial
 #define relay1 40
@@ -14,8 +14,8 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
-char ssid[] = "Jasin";
-char pass[] = "1223334444";
+char ssid[] = "YOUR_WIFI_SSID";
+char pass[] = "YOUR_WIFI_PASSWORD";
 int global_val;
  float temp,humi,press,gas,lux;
 #define SDA_PIN 1
